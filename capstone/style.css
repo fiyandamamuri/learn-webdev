@@ -1,3 +1,7 @@
+main {
+    background-color: white;
+}
+
 main .container1 {
     background-color: gray;
     height: 50vh;
@@ -8,9 +12,28 @@ main .container2 {
     height: 50vh;
 }
 
-main .container3 {
+.first-container {
     background-color: gray;
-    height: 50vh;
+    height: 100vh;    
+    margin: 10px;
+
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 98vh;
+    position: absolute;
+    background-color: white;
+    margin: 10px;
+}
+
+.first-content {
+    display: flex;
+    flex-direction: row;
+    border: 1px black;
+
 }
 
 .container1 {
@@ -24,6 +47,7 @@ main .container3 {
     flex-direction: row;
     margin: 10px;   
 }
+
 
 .content1 {
     background-color: white;
